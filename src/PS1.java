@@ -9,5 +9,7 @@ public class PS1 {
     @BeforeMethod
     public void beforeRun(){
         System.out.println("Before method from parent class");
+
+
     }
 }

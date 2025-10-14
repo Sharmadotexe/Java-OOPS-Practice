@@ -4,6 +4,8 @@ public class PS2 extends PS1{
 
     @Test
     public void newRun(){
-        doThis();
+        Main obj = new Main(5);
+
+        System.out.println(obj.increment());
     }
 }
